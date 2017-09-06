@@ -1,0 +1,38 @@
+html {
+    background: url("../images/color.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.key {
+    display: inline-block;
+    border: 1px dashed #fff;
+    color: #fff;
+    transition: all .07s;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.sound {
+    color: white;
+    display: block;
+    padding: 10px;
+}
+
+.keys {
+    text-align: center;
+    padding: 10px;
+    margin-top: 10%;
+}
+
+h1 {
+    color: #fff;
+    text-align: center;
+}
+
+.playing {
+    transform: scale(1.5);
+    border-color: yellow;
+    box-shadow: 0 0 10px #999;
+}
